@@ -18,3 +18,12 @@ end
     @input == class_instance_input.compare ? "Test passes! :)" : "Test fails! D:"
   end
 end
+
+
+def expect(value)
+ Expect.new(value)
+end
+
+def eq(value)
+ Equal.new(value)
+end
